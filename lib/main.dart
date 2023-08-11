@@ -12,6 +12,37 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
   runApp(const MyApp());
+
+  // FirebaseFirestore _firestore = FirebaseFirestore.instance;
+
+  // Map<String, dynamic> newUserData = {
+  //   "name": "Dushu Dushu",
+  //   "email": "dushu@dushu.com",
+  // };
+
+  // await _firestore.collection("users").add(newUserData);
+  // print("new user added");
+
+  // await _firestore.collection("users").doc("1JUyoqDOjRNDeRQjJPiB").update({
+  //   "email": "dushu-dushu@gmail.com",
+  // });
+  // print("New user updated");
+
+  // await _firestore.collection("users").doc("new-id").set(newUserData);
+  // print("New user added using new-id");
+
+  // QuerySnapshot snapshot = await _firestore.collection("users").get();
+  // for (var i in snapshot.docs) {
+  //   print(i);
+  //   print(i.data().toString());
+  // }
+
+  // DocumentSnapshot snapshot =
+  //     await _firestore.collection("users").doc("new-id").get();
+  // print(snapshot.data().toString());
+
+  // await _firestore.collection("users").doc("new-id").delete();
+  // print("new-id is deleted");
 }
 
 class MyApp extends StatelessWidget {

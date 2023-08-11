@@ -67,6 +67,5 @@ class _VerifyOtpScreenState extends State<VerifyOtpScreen> {
         )),
       ),
     );
-    ;
   }
 }
